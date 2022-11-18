@@ -27,10 +27,10 @@ Cookie Scope
 
 - Domain
     - document.cookie=’cookie=value; domain=domain’;
-    - res.setHeader(’set-header’, [’cookie=value; domain=domain’]);
+    - res.setHeader(’set-cookie’, [’cookie=value; domain=domain’]);
 - Path
     - document.cookie=’cookie=value; path/path’;
-    - res.setHeader(’set-header’, [’cookie=value; path=/path’]);
+    - res.setHeader(’set-cookie’, [’cookie=value; path=/path’]);
 
 Expires, Max-age
 
